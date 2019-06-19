@@ -1,0 +1,13 @@
+/Users/a_billupton/Projects/TestProjects/TestHScroll/TestHScroll/bin/Debug/netstandard2.0/TestHScroll.deps.json
+/Users/a_billupton/Projects/TestProjects/TestHScroll/TestHScroll/bin/Debug/netstandard2.0/TestHScroll.dll
+/Users/a_billupton/Projects/TestProjects/TestHScroll/TestHScroll/bin/Debug/netstandard2.0/ref/TestHScroll.dll
+/Users/a_billupton/Projects/TestProjects/TestHScroll/TestHScroll/bin/Debug/netstandard2.0/TestHScroll.pdb
+/Users/a_billupton/Projects/TestProjects/TestHScroll/TestHScroll/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/a_billupton/Projects/TestProjects/TestHScroll/TestHScroll/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/a_billupton/Projects/TestProjects/TestHScroll/TestHScroll/obj/Debug/netstandard2.0/TestHScroll.csproj.CoreCompileInputs.cache
+/Users/a_billupton/Projects/TestProjects/TestHScroll/TestHScroll/obj/Debug/netstandard2.0/TestHScroll.AssemblyInfoInputs.cache
+/Users/a_billupton/Projects/TestProjects/TestHScroll/TestHScroll/obj/Debug/netstandard2.0/TestHScroll.AssemblyInfo.cs
+/Users/a_billupton/Projects/TestProjects/TestHScroll/TestHScroll/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/a_billupton/Projects/TestProjects/TestHScroll/TestHScroll/obj/Debug/netstandard2.0/TestHScroll.dll
+/Users/a_billupton/Projects/TestProjects/TestHScroll/TestHScroll/obj/Debug/netstandard2.0/ref/TestHScroll.dll
+/Users/a_billupton/Projects/TestProjects/TestHScroll/TestHScroll/obj/Debug/netstandard2.0/TestHScroll.pdb

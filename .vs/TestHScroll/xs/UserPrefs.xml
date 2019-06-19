@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{F3CB533B-A0D9-40FD-9219-BCCBCE7DAE71}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestHScroll.Android/ScanPage.cs">
+    <Files>
+      <File FileName="TestHScroll/Controls/HorizontalScrollList.cs" Line="133" Column="1" />
+      <File FileName="TestHScroll.Android/ScanPage.cs" Line="62" Column="40" />
+      <File FileName="TestHScroll.Android/ImageService.cs" Line="67" Column="35" />
+      <File FileName="TestHScroll.Android/Properties/AssemblyInfo.cs" Line="37" Column="1" />
+      <File FileName="TestHScroll/MainPage.xaml" Line="27" Column="92" NotebookId="1" />
+      <File FileName="TestHScroll/ScanVM.cs" Line="98" Column="1" NotebookId="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TestHScroll" expanded="True">
+            <Node name="TestHScroll" expanded="True">
+              <Node name="Controls" expanded="True" />
+              <Node name="App.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+            <Node name="TestHScroll.Android" expanded="True">
+              <Node name="Properties" expanded="True" />
+              <Node name="ScanPage.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.TestHScroll.Android PreferredExecutionTarget="Android.31c3511d051e94e4" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

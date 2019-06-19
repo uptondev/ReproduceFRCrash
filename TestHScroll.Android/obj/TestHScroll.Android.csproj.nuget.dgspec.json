@@ -1,0 +1,154 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/a_billupton/Projects/TestProjects/TestHScroll/TestHScroll.Android/TestHScroll.Android.csproj": {}
+  },
+  "projects": {
+    "/Users/a_billupton/Projects/TestProjects/TestHScroll/TestHScroll.Android/TestHScroll.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/a_billupton/Projects/TestProjects/TestHScroll/TestHScroll.Android/TestHScroll.Android.csproj",
+        "projectName": "TestHScroll.Android",
+        "projectPath": "/Users/a_billupton/Projects/TestProjects/TestHScroll/TestHScroll.Android/TestHScroll.Android.csproj",
+        "packagesPath": "/Users/a_billupton/.nuget/packages/",
+        "outputPath": "/Users/a_billupton/Projects/TestProjects/TestHScroll/TestHScroll.Android/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/a_billupton/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {
+              "/Users/a_billupton/Projects/TestProjects/TestHScroll/TestHScroll/TestHScroll.csproj": {
+                "projectPath": "/Users/a_billupton/Projects/TestProjects/TestHScroll/TestHScroll/TestHScroll.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "dependencies": {
+            "Plugin.Permissions": {
+              "target": "Package",
+              "version": "[3.0.0.12, )"
+            },
+            "Xam.Plugin.Media": {
+              "target": "Package",
+              "version": "[4.0.1.5, )"
+            },
+            "Xamarin.Android.Support.Core.Utils": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.CustomTabs": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.Design": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.v4": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.v7.AppCompat": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.v7.CardView": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.v7.MediaRouter": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.0.0.425677, )"
+            }
+          }
+        }
+      }
+    },
+    "/Users/a_billupton/Projects/TestProjects/TestHScroll/TestHScroll/TestHScroll.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/a_billupton/Projects/TestProjects/TestHScroll/TestHScroll/TestHScroll.csproj",
+        "projectName": "TestHScroll",
+        "projectPath": "/Users/a_billupton/Projects/TestProjects/TestHScroll/TestHScroll/TestHScroll.csproj",
+        "packagesPath": "/Users/a_billupton/.nuget/packages/",
+        "outputPath": "/Users/a_billupton/Projects/TestProjects/TestHScroll/TestHScroll/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/a_billupton/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Plugin.Permissions": {
+              "target": "Package",
+              "version": "[3.0.0.12, )"
+            },
+            "Xam.Plugin.Media": {
+              "target": "Package",
+              "version": "[4.0.1.5, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.0.0.425677, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

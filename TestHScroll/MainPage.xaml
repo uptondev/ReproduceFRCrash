@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design" 
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    xmlns:ctrls="clr-namespace:TestHScroll.Controls;assembly=TestHScroll" 
+    xmlns:converter="clr-namespace:TestHScroll.Converters"
+    mc:Ignorable="d" 
+    x:Class="TestHScroll.MainPage">
+    
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <DataTemplate x:Key="ScanImageTemplate">
+                <Frame Margin="5,0" Padding="2" CornerRadius="0" HasShadow="{Binding IsSelected, Converter={converter:SelectedPageShadowConverter}}" OutlineColor="{Binding IsSelected, Converter={converter:SelectedPageOutlineConverter}}">
+                    <Image x:Name="Thumb" Source="{Binding Item.ThumbPreview}" Aspect="AspectFit" HeightRequest="160" WidthRequest="100" />
+                </Frame>
+            </DataTemplate>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <!-- Place new controls here -->
+            <Label Text="Welcome to Xamarin.Forms!" HorizontalOptions="Center" VerticalOptions="StartAndExpand" />
+            
+            <ScrollView VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand">
+                <Image x:Name="PrevDroid" Source="{Binding SelectedPage.AvailablePreview}" VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand" 
+                    WidthRequest="700" HeightRequest="2000" />
+            </ScrollView>
+            
+            <Button Text="Add a Pic" Command="{Binding AddClickCommand}" />
+            
+            <ctrls:HorizontalScrollList BackgroundColor="White" ItemTemplate="{StaticResource ScanImageTemplate}" 
+                ItemsSource="{Binding Pages}" SelectedCommand="{Binding PreviewSelectCommand}" x:Name="ThumbList"/>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
