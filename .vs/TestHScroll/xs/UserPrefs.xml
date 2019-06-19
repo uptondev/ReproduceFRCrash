@@ -6,7 +6,7 @@
       <File FileName="TestHScroll.Android/ImageService.cs" />
       <File FileName="TestHScroll.Android/Properties/AssemblyInfo.cs" />
       <File FileName="TestHScroll/MainPage.xaml" Line="27" Column="92" NotebookId="1" />
-      <File FileName="TestHScroll/ScanVM.cs" Line="81" Column="1" NotebookId="1" />
+      <File FileName="TestHScroll/ScanVM.cs" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
