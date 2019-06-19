@@ -1,0 +1,21 @@
+STACK TRACE for FR Crash
+------------------------
+System.ObjectDisposedException
+Cannot access a disposed object. Object name: 'Xamarin.Forms.Platform.Android.FastRenderers.FrameRenderer'.
+------------------------
+  at Java.Interop.JniPeerMembers.AssertSelf (Java.Interop.IJavaPeerable self) [0x00029] in <9ed4c1a7b8844cdcb5330cc881c1cd6a>:0 
+  at Java.Interop.JniPeerMembers+JniInstanceMethods.InvokeVirtualVoidMethod (System.String encodedMember, Java.Interop.IJavaPeerable self, Java.Interop.JniArgumentValue* parameters) [0x00000] in <9ed4c1a7b8844cdcb5330cc881c1cd6a>:0 
+  at Android.Support.V7.Widget.CardView.set_CardElevation (System.Single value) [0x00022] in <db49a6a89fc24f5db24db2da15164cc0>:0 
+  at Xamarin.Forms.Platform.Android.FastRenderers.FrameRenderer.UpdateShadow () [0x00033] in D:\a\1\s\Xamarin.Forms.Platform.Android\FastRenderers\FrameRenderer.cs:272 
+  at Xamarin.Forms.Platform.Android.FastRenderers.FrameRenderer.OnElementPropertyChanged (System.Object sender, System.ComponentModel.PropertyChangedEventArgs e) [0x0002a] in D:\a\1\s\Xamarin.Forms.Platform.Android\FastRenderers\FrameRenderer.cs:230 
+  at (wrapper delegate-invoke) <Module>.invoke_void_object_PropertyChangedEventArgs(object,System.ComponentModel.PropertyChangedEventArgs)
+  at Xamarin.Forms.BindableObject.OnPropertyChanged (System.String propertyName) [0x00000] in D:\a\1\s\Xamarin.Forms.Core\BindableObject.cs:211 
+  at Xamarin.Forms.Element.OnPropertyChanged (System.String propertyName) [0x00000] in D:\a\1\s\Xamarin.Forms.Core\Element.cs:353 
+  at Xamarin.Forms.BindableObject.SetValueActual (Xamarin.Forms.BindableProperty property, Xamarin.Forms.BindableObject+BindablePropertyContext context, System.Object value, System.Boolean currentlyApplying, Xamarin.Forms.Internals.SetValueFlags attributes, System.Boolean silent) [0x00114] in D:\a\1\s\Xamarin.Forms.Core\BindableObject.cs:443 
+  at Xamarin.Forms.BindableObject.SetValueCore (Xamarin.Forms.BindableProperty property, System.Object value, Xamarin.Forms.Internals.SetValueFlags attributes, Xamarin.Forms.BindableObject+SetValuePrivateFlags privateAttributes) [0x00173] in D:\a\1\s\Xamarin.Forms.Core\BindableObject.cs:379 
+  at Xamarin.Forms.BindingExpression.ApplyCore (System.Object sourceObject, Xamarin.Forms.BindableObject target, Xamarin.Forms.BindableProperty property, System.Boolean fromTarget) [0x00220] in D:\a\1\s\Xamarin.Forms.Core\BindingExpression.cs:167 
+  at Xamarin.Forms.BindingExpression.Apply (System.Boolean fromTarget) [0x0003e] in D:\a\1\s\Xamarin.Forms.Core\BindingExpression.cs:57 
+  at Xamarin.Forms.BindingExpression+BindingExpressionPart.<PropertyChanged>b__49_0 () [0x00000] in D:\a\1\s\Xamarin.Forms.Core\BindingExpression.cs:618 
+  at Java.Lang.Thread+RunnableImplementor.Run () [0x00008] in <a6696dd5fce04f5480364911ef1529f2>:0 
+  at Java.Lang.IRunnableInvoker.n_Run (System.IntPtr jnienv, System.IntPtr native__this) [0x00009] in <a6696dd5fce04f5480364911ef1529f2>:0 
+  at (wrapper dynamic-method) Android.Runtime.DynamicMethodNameCounter.45(intptr,intptr)
